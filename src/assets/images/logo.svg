@@ -3,8 +3,8 @@
 
 <svg
    width="42.333332mm"
-   height="7.1790161mm"
-   viewBox="0 0 42.333332 7.1790161"
+   height="7.1789975mm"
+   viewBox="0 0 42.333332 7.1789975"
    version="1.1"
    id="svg5"
    inkscape:version="1.1 (c68e22c387, 2021-05-23)"
@@ -24,8 +24,8 @@
      inkscape:document-units="mm"
      showgrid="false"
      inkscape:zoom="0.74118967"
-     inkscape:cx="501.89582"
-     inkscape:cy="167.9732"
+     inkscape:cx="807.48562"
+     inkscape:cy="219.24213"
      inkscape:window-width="1920"
      inkscape:window-height="1017"
      inkscape:window-x="892"
@@ -38,33 +38,32 @@
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
      id="layer1"
-     transform="translate(13.159547,-104.21149)"
+     transform="translate(94.191999,-90.469816)"
      style="display:inline">
     <g
-       id="g83124"
-       transform="matrix(0.17486808,0,0,0.17486808,-14.585119,89.453795)">
+       id="g852">
       <text
          xml:space="preserve"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:58.4735px;line-height:1.25;font-family:'Vladimir Script';-inkscape-font-specification:'Vladimir Script';fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.46184"
-         x="2.5561748"
-         y="124.33687"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.2251px;line-height:1.25;font-family:'Vladimir Script';-inkscape-font-specification:'Vladimir Script';fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.25563"
+         x="-95.170578"
+         y="97.454651"
          id="text44710"><tspan
            sodipodi:role="line"
            id="tspan44708"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Vladimir Script';-inkscape-font-specification:'Vladimir Script';fill:#000000;fill-opacity:1;stroke-width:1.46184"
-           x="2.5561748"
-           y="124.33687">Chad</tspan></text>
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Vladimir Script';-inkscape-font-specification:'Vladimir Script';fill:#ffffff;fill-opacity:1;stroke-width:0.25563"
+           x="-95.170578"
+           y="97.454651">Chad</tspan></text>
       <text
          xml:space="preserve"
-         style="font-style:normal;font-weight:normal;font-size:59.7212px;line-height:1.25;font-family:sans-serif;fill:#2caeba;fill-opacity:1;stroke:none;stroke-width:1.49304"
-         x="114.61291"
-         y="125.21391"
+         style="font-style:normal;font-weight:normal;font-size:10.4433px;line-height:1.25;font-family:sans-serif;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.261086"
+         x="-75.575401"
+         y="97.608017"
          id="text57832"><tspan
            sodipodi:role="line"
            id="tspan57830"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:59.7212px;font-family:'Vladimir Script';-inkscape-font-specification:'Vladimir Script, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#2caeba;fill-opacity:1;stroke-width:1.49304"
-           x="114.61291"
-           y="125.21391">Parker</tspan></text>
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.4433px;font-family:'Vladimir Script';-inkscape-font-specification:'Vladimir Script, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#ffffff;fill-opacity:1;stroke-width:0.261086"
+           x="-75.575401"
+           y="97.608017">Parker</tspan></text>
     </g>
   </g>
 </svg>

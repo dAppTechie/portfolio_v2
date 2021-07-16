@@ -1,5 +1,6 @@
 import React from "react"
 import { graphql } from "gatsby"
+import { GatsbyImage, getImage } from "gatsby-plugin-image"
 import Title from "../components/Title"
 import Seo from "../components/Seo"
 
@@ -9,7 +10,24 @@ const About = ({ data }) => {
   } = data
   return (
     <>
-      <h2>about page</h2>
+      <section className="about-page">
+        <div className="section-center about-center">
+          <GatsbyImage
+            image={getImage(image.localFile)}
+            alt={title}
+            className="about-img"
+          />
+          <article className="about-text">
+            <Title title={title} />
+            <p>{info}</p>
+            <div className="about-stack">
+              {stack.map(item => {
+                return <span key={item.id}>{item.skill}</span>
+              })}
+            </div>
+          </article>
+        </div>
+      </section>
     </>
   )
 }

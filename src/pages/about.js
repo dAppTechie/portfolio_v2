@@ -3,7 +3,10 @@ import { graphql } from "gatsby"
 import Title from "../components/Title"
 import Seo from "../components/Seo"
 
-const About = () => {
+const About = ({ data }) => {
+  const {
+    strapiAbout: { title, image, info, stack },
+  } = data
   return (
     <>
       <h2>about page</h2>

@@ -12,10 +12,10 @@ const Hero = () => {
           <div>
             <div className="underline"></div>
             <div className="content">
-              <h1>I'm Chad,</h1>
+              <h1 className="htitle">I am Chad,</h1>
               <p>
                 {" "}
-                a <span className="bold">Full-Stack Developer</span> that's
+                a <span className="bold">Full-Stack Developer</span> that is
                 committed to <span className="bold">Humanitarian</span>,{" "}
                 <span className="bold">Social</span> and{" "}
                 <span className="bold">Environmental Causes</span>.
@@ -24,7 +24,7 @@ const Hero = () => {
                 {" "}
                 My goal is to use <span className="bold">code</span> to bring
                 together <span className="bold">youth</span> from{" "}
-                <span className="bold">different cultures</span>, and{" "}
+                <span className="bold">different cultures</span> and{" "}
                 <span className="bold">teach them valuable life skills</span>.
               </p>
             </div>

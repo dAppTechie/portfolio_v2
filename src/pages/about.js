@@ -21,9 +21,9 @@ const About = ({ data }) => {
             <Title title={title} />
             <p>{info}</p>
             <div className="about-stack">
-              {stack.map(item => {
-                return <span key={item.id}>{item.skill}</span>
-              })}
+              {stack.map(item => (
+                <span key={item.id}>{item.skill}</span>
+              ))}
             </div>
           </article>
         </div>

@@ -33,30 +33,26 @@ const Jobs = () => {
       <Title title="experience" />
       <div className="jobs-center">
         <div className="btn-container">
-          {jobs.map((item, index) => {
-            return (
-              <button
-                key={index}
-                className={index === value ? "job-btn active-btn" : "job-btn"}
-                onClick={() => setValue(index)}
-              >
-                {item.short}
-              </button>
-            )
-          })}
+          {jobs.map((item, index) => (
+            <button
+              key={index}
+              className={index === value ? "job-btn active-btn" : "job-btn"}
+              onClick={() => setValue(index)}
+            >
+              {item.short}
+            </button>
+          ))}
         </div>
         <article className="job-info">
           <h3>{position}</h3>
           <h4>{company}</h4>
           <p className="job-date">{date}</p>
-          {desc.map(item => {
-            return (
-              <div key={item.id} className="job-desc">
-                <FaMandalorian className="job-icon"></FaMandalorian>
-                <p>{item.name}</p>
-              </div>
-            )
-          })}
+          {desc.map(item => (
+            <div key={item.id} className="job-desc">
+              <FaMandalorian className="job-icon"></FaMandalorian>
+              <p>{item.name}</p>
+            </div>
+          ))}
         </article>
       </div>
       <Link to="/about" className="btn center-btn">

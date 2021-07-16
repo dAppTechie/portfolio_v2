@@ -32,13 +32,11 @@ const Hero = () => {
               contact me
             </Link>
             <div className="social-links">
-              {socialLinks.map(link => {
-                return (
-                  <a href={link.url} key={link.id} className="social-link">
-                    {link.icon}
-                  </a>
-                )
-              })}
+              {socialLinks.map(link => (
+                <a href={link.url} key={link.id} className="social-link">
+                  {link.icon}
+                </a>
+              ))}
             </div>
           </div>
         </article>

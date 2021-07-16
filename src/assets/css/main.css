@@ -784,7 +784,7 @@ Footer
 */
 .footer {
   height: 9rem;
-  background: #222;
+  background: var(--clr-primary-1);
   text-align: center;
   display: grid;
   place-items: center;
@@ -796,7 +796,7 @@ Footer
   text-transform: uppercase;
 }
 .footer h4 span {
-  color: var(--clr-primary-5);
+  color: lightcoral;
 }
 .footer-links {
   margin: 0 auto 1rem auto;

@@ -5,13 +5,13 @@ import Title from "../components/Title"
 import Seo from "../components/Seo"
 
 const About = ({ data }) => {
-  const {
-    strapiAbout: { title, image, info, stack },
-  } = data
+  // const {
+  //   strapiAbout: { title, image, info, stack },
+  // } = data
   return (
     <>
       <section className="about-page">
-        <div className="section-center about-center">
+        {/* <div className="section-center about-center">
           <GatsbyImage
             image={getImage(image.localFile)}
             alt={title}
@@ -26,30 +26,30 @@ const About = ({ data }) => {
               ))}
             </div>
           </article>
-        </div>
+        </div> */}
       </section>
     </>
   )
 }
 
-export const query = graphql`
-  {
-    strapiAbout {
-      title
-      info
-      stack {
-        id
-        skill
-      }
-      image {
-        localFile {
-          childImageSharp {
-            gatsbyImageData(layout: CONSTRAINED, placeholder: BLURRED)
-          }
-        }
-      }
-    }
-  }
-`
+// export const query = graphql`
+//   {
+//     strapiAbout {
+//       title
+//       info
+//       stack {
+//         id
+//         skill
+//       }
+//       image {
+//         localFile {
+//           childImageSharp {
+//             gatsbyImageData(layout: CONSTRAINED, placeholder: BLURRED)
+//           }
+//         }
+//       }
+//     }
+//   }
+// `
 
 export default About

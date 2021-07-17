@@ -250,6 +250,9 @@ Navbar
 .nav-links {
   display: none;
 }
+.logo-small {
+  display: none;
+}
 @media screen and (min-width: 768px) {
   .toggle-btn {
     display: none;
@@ -276,6 +279,22 @@ Navbar
     display: grid;
     grid-template-columns: auto 1fr;
     align-items: center;
+  }
+}
+@media screen and (max-width: 550px) {
+  .logo-main {
+    display: none;
+  }
+  .logo-small {
+    display: flex;
+  }
+  .nav-links {
+    display: none;
+  }
+  .toggle-btn {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
   }
 }
 

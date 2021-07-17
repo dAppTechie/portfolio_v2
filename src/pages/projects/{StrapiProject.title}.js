@@ -5,6 +5,11 @@ import Seo from "../../components/Seo"
 const ProjectTemplate = ({ pageContext: { title }, data }) => {
   return (
     <>
+      <Seo
+        title={data.strapiProject.title.toUpperCase()}
+        description={data.strapiProject.description}
+        image={data.strapiProject.image.publicUrl}
+      />
       <main className="project-template-page">
         <h2>{title}</h2>
         <p>{data.strapiProject.description}</p>

@@ -1,11 +1,19 @@
 /**
- * Configure your Gatsby site with this file.
+ * Chad Parker Portfolio
  *
- * See: https://www.gatsbyjs.com/docs/gatsby-config/
+ * See: https://imchad.me
  */
 
 module.exports = {
-  /* Your site config here */
+  /* SEO */
+  siteMetadata: {
+    title: `Chad Parker Portfolio`,
+    description: `Chad Parker Portfolio built with Gatsby and Strapi`,
+    titleTemplate: `%s | Chad Parker`,
+    url: `https://imchad.me`,
+    twitterUsername: `@imchad_me`,
+    image: `/chad.jpg`,
+  },
   plugins: [
     `gatsby-plugin-image`,
     `gatsby-plugin-sharp`,

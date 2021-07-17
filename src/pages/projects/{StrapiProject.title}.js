@@ -1,6 +1,7 @@
 import React from "react"
 import { graphql } from "gatsby"
 import Seo from "../../components/Seo"
+
 const ProjectTemplate = ({ pageContext: { title }, data }) => {
   return (
     <>
@@ -18,7 +19,9 @@ export const query = graphql`
       description
       title
       image {
-        publicURL
+        localFile {
+          publicURL
+        }
       }
     }
   }

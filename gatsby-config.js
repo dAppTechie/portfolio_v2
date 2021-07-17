@@ -19,21 +19,14 @@ module.exports = {
     },
     `gatsby-plugin-react-helmet`,
     {
-      resolve: "gatsby-source-mongodb",
+      resolve: `gatsby-source-strapi`,
       options: {
-        // Name of the database and collection
-        dbName: "portfolio",
-        collection: [`jobs`, `projects`],
-        server: {
-          address: "suei2.mongodb.net",
-        },
-        auth: {
-          user: "warcreed",
-          password: "a0YSK84KE21Vlt4q",
-        },
-        extraParams: {
-          retryWrites: true,
-        },
+        apiURL: `http://localhost:1337`,
+        queryLimit: 1000, // Default to 100
+        contentTypes: [`job`, `project`],
+        //If using single types place them in this array.
+        singleTypes: [`about`],
+        // Possibility to login with a strapi user, when content types are not publically available (optional).
       },
     },
   ],
